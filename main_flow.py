@@ -6,6 +6,7 @@ def main_flow():
     logger = get_run_logger()
     logger.info("Main flow called!")
     logger.info("This was created in branch main.")
+    logger.info("This was created in branch main in GitHub.")
 
     test_task()
 
